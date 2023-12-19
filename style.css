@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#bild-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bild {
+    width: 225px;
+    height: 225px;
+    margin: 0 5px;
+}
+
+button {
+    width: 225px;
+    height: 30px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.bild {
+    width: 225px;
+    height: 225px;
+    margin: 0 5px; 
+    display: none; 
+}
+
+.bild:nth-child(4) {
+    display: block; 
+}
+
+#button-container {
+    margin-top: 10px; 
+}
+
+button {
+    width: 225px;
+    height: 30px; 
+    margin: 0 5px;
+    display: inline-block;
+}
+   
